@@ -9,10 +9,7 @@ module.exports = {
     loaders: [{
       test: /\.js?$/,
       loader: 'babel',
-      exclude: /node_modules/,
-      query: {
-        presets: ['es2015', 'react']
-      }
+      exclude: /node_modules/
     }]
   },
   resolve: {
